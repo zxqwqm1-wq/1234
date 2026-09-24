@@ -1,0 +1,24 @@
+name: fishing_app
+description: "钓鱼大师 - 跨平台钓鱼助手App"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  http: ^1.2.0
+  url_launcher: ^6.2.4
+  geolocator: ^11.0.0
+  supabase_flutter: ^2.3.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
